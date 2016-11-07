@@ -13,6 +13,9 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
+    let v = DRBezierWaveView(frame: self.view.frame)
+    v.backgroundColor = UIColor.white
+    self.view.addSubview(v)
   }
 
   override func didReceiveMemoryWarning() {

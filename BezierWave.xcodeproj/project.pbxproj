@@ -12,6 +12,7 @@
 		F2FB10181DC9DB8F00EFB253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB10161DC9DB8F00EFB253 /* Main.storyboard */; };
 		F2FB101A1DC9DB8F00EFB253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2FB10191DC9DB8F00EFB253 /* Assets.xcassets */; };
 		F2FB101D1DC9DB8F00EFB253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2FB101B1DC9DB8F00EFB253 /* LaunchScreen.storyboard */; };
+		F2FB10251DC9DBA500EFB253 /* DRBezierWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FB10241DC9DBA500EFB253 /* DRBezierWaveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F2FB10191DC9DB8F00EFB253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2FB101C1DC9DB8F00EFB253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2FB101E1DC9DB8F00EFB253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2FB10241DC9DBA500EFB253 /* DRBezierWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DRBezierWaveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F2FB10121DC9DB8F00EFB253 /* AppDelegate.swift */,
 				F2FB10141DC9DB8F00EFB253 /* ViewController.swift */,
+				F2FB10241DC9DBA500EFB253 /* DRBezierWaveView.swift */,
 				F2FB10161DC9DB8F00EFB253 /* Main.storyboard */,
 				F2FB10191DC9DB8F00EFB253 /* Assets.xcassets */,
 				F2FB101B1DC9DB8F00EFB253 /* LaunchScreen.storyboard */,
@@ -96,7 +99,8 @@
 				TargetAttributes = {
 					F2FB100E1DC9DB8F00EFB253 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X342LX7QRW;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -137,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2FB10151DC9DB8F00EFB253 /* ViewController.swift in Sources */,
+				F2FB10251DC9DBA500EFB253 /* DRBezierWaveView.swift in Sources */,
 				F2FB10131DC9DB8F00EFB253 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,10 +265,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = BezierWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.BezierWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b72c88d0-b290-401a-addf-906a5fc11d6f";
+				PROVISIONING_PROFILE_SPECIFIER = "ideabinder development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,10 +280,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = BezierWave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.BezierWave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b72c88d0-b290-401a-addf-906a5fc11d6f";
+				PROVISIONING_PROFILE_SPECIFIER = "ideabinder development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
