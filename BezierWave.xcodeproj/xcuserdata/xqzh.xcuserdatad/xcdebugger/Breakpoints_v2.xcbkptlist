@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BezierWave/DRBezierWaveView.swift"
-            timestampString = "500201139.983234"
+            timestampString = "500277600.952508"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "animation()"
             landmarkType = "7">
          </BreakpointContent>

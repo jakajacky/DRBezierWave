@@ -13,7 +13,10 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    let v = DRBezierWaveView(frame: self.view.frame)
+    let v = DRBezierWaveView(frame: self.view.frame) as DRBezierWaveView
+    v.speed      = 2
+    v.waveHeight = 10.0
+    v.waveWidth  = 375.0
     v.backgroundColor = UIColor.white
     self.view.addSubview(v)
   }
